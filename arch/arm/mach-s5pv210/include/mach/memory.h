@@ -14,7 +14,7 @@
 #define __ASM_ARCH_MEMORY_H
 
 #if defined(CONFIG_MACH_SMDKV210)
-#define PHYS_OFFSET		UL(0x20000000)
+#define PHYS_OFFSET		UL(0x30000000)			// UL(0x20000000)
 #else
 #define PHYS_OFFSET		UL(0x30000000)
 #endif
